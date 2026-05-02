@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0D1B2A;
+  --color-orange-safety: #E67E22;
+  --color-green-success: #2ECC71;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans;
+  }
+}
+
+.mobile-container {
+  @apply mx-auto w-full max-w-md h-screen overflow-hidden bg-white flex flex-col shadow-2xl;
+}
