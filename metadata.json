@@ -1,6 +1,0 @@
-{
-  "name": "CarWash Pro",
-  "description": "Multi-tenant role-based car wash operations platform featuring real-time queue management, wash stage pipeline, and manager analytics.",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
-}
